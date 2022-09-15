@@ -1,0 +1,150 @@
+<div class="login-box">
+  <div class="row">
+    <img src="https://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png" alt=""
+/>
+  </div>
+  
+<h2>Login</h2>
+  
+<form>
+  <div class="user-box">
+    <input type="text" name="" required="" /> 
+    <label><i class="fa fa-user" aria-hidden="true"></i> Username</label>
+  </div>
+  
+  <div class="user-box">
+    <input type="password" name="" required="" />
+    <label><i class="fa fa-unlock" aria-hidden="true"></i> Password</label>
+  </div>
+  
+  <span class="myClass"><a href="#"></a></span>
+
+</form>
+  
+</div>
+
+<!--copy this css code
+
+@import url( 'https://fonts.googleapls.com/css? family=Montserrat:600&display=swap'); 
+
+html {
+height: 100%;
+}
+
+body { 
+  margin:0; 
+  padding:0;
+  font-family: sans-serif; 
+  background: #fff;
+}
+
+.login-box { 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  width: 32vw;
+  padding: 3vw;
+  transform: translate(-50%, -50%);      
+  background: #fc5185; 
+  box-sizing: border-box; 
+  border-radius: 1vw; 
+  border: .2vw solid #000;
+}
+
+.row{
+  text-align: center; 
+  margin-top: 8vw;
+}
+
+.login-box img{ 
+  width: 10vw; 
+  height: 10vw;
+}
+
+.login-box h2 {
+  margin: 0 0 2.5vw; 
+  padding: 0; 
+  color: #0e153a; 
+  text-align: center;}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input { 
+  width: 100%; 
+  padding: .7vw 0; 
+  font-size: 1.5vw; 
+  color: #000; 
+  margin-bottom: 2vw; 
+  border: none;
+  border-bottom: .1vw solid #fff; 
+  outline: none; 
+  background: transparent;
+}
+  
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: .5vw 0; 
+  font-size: 1.3vw; 
+  color: #fff; 
+  pointer-events: none; 
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label, login-box .user-box input:valid ~ label { 
+  top: -20px; 
+  left: 0; 
+  color: #0e153a; 
+  font-size: 1vw;}
+
+span{
+  position: relative; 
+  display: inline-flex; 
+  width: 2vw; 
+  height: 2vw;
+}
+
+span a{
+  font-size: 1vw; 
+  letter-spacing: lpx; 
+  transform-style: preserve-3d; 
+  transform: translateZ(-25px); 
+  transition: transform .25s;
+}
+
+span a:before, 
+span a:after{ 
+  height: 4vw; 
+  width: 8vw; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  box-sizing: border-box; 
+  border-radius: 5px;
+}
+
+span a:before{
+  position: absolute; 
+  content: "BUTTON"; 
+  color: #fff; 
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+
+span a:after{
+  position: absolute; 
+  content: "SUBMIT"; 
+  font-weight: bold; 
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);   border: 2px solid white; 
+  background: #fff;
+}
+
+span a:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+
+-->
