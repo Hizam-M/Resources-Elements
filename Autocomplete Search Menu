@@ -1,0 +1,7 @@
+<input list="subjects" id="" name="">
+<datalist id="subjects">
+  <option value="HTML">
+  <option value="CSS">
+  <option value="JS">
+</datalist>
+</input>
